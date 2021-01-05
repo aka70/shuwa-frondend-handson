@@ -4,7 +4,13 @@
   "main": "index.js",
   "repository": "https://github.com/n05-frontend/shuwa-frontend-book-app.git",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
   "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.1"
   }
