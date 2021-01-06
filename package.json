@@ -5,6 +5,7 @@
   "repository": "https://github.com/n05-frontend/shuwa-frontend-book-app.git",
   "license": "MIT",
   "scripts": {
+    "serve": "webpack-dev-server",
     "build": "webpack",
     "lint:ts": "tsc --noEmit",
     "test": "jest"
