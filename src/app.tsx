@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Timeline from './TimeLine'
 import $ from 'jquery'
 import createBookReview from './createBookReview'
 import createBookListItem from './createBookListItem'
@@ -21,7 +22,7 @@ export type Review = {
 }
 
 const root = document.getElementById('react-root')
-ReactDOM.render(<h1>React で描画する</h1>, root)
+ReactDOM.render(<Timeline />, root)
 
 $(function() {
   $.ajax('http://localhost:1323/books')
