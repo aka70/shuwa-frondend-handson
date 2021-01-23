@@ -168,7 +168,7 @@ module.exports = {
   // testRunner: "jasmine2",
 
     transform: {
-    "^.+\\.ts$": "ts-jest"
+    "^.+\\.tsx?$": "babel-jest"
   }
   // This option sets the URL for the jsdom environment. It is reflected in properties such as location.href
   // testURL: "http://localhost",
