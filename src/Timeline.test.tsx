@@ -3,7 +3,7 @@ jest.mock('./api')
 import React from 'react'
 import { act } from 'react-dom/test-utils'
 import { mount } from 'enzyme'
-import Timeline from './Timeline'
+import Timeline from './TimeLine'
 import BookList from './BookList'
 
 describe('<Timeline>', () => {

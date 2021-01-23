@@ -1,15 +1,7 @@
+
 /* ページ */
 body {
   background-color: #eee;
-}
-
-.page {
-  margin: 0 auto;
-  width: 700px;
-}
-
-.page__title {
-  font-size: 1.8rem;
 }
 
 /* レビューリスト */
