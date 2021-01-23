@@ -21,8 +21,13 @@ describe('<ReviewList>', () => {
     expect(wrapper.find('.review__list__item').length).toBe(1)
   })
 
-    test('should display username', () => {
+  test('should display username', () => {
     const wrapper = mount(<ReviewList reviews={[review]} />)
     expect(wrapper.find('.review__list__item__name').text()).toBe(`${review.username}さんの感想・評価`)
+  })
+
+  test('should display comment', () => {
+    const wrapper = mount(<ReviewList reviews={[review]} />)
+    expect(wrapper.find('.review__list__item__comment').text()).toBe(review.comment)
   })
 })
